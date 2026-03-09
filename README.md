@@ -83,9 +83,12 @@ That shows the market has a stable growth. 2017 didn"t appear in top 10 because 
 - Created index based on two variables date and symbol.
 It decreased search time from 1571.226 ms to 0.197 ms
 
-![Dashboard](test_1.png)
-![Dashboard](test_2.png)
+![test1](test_1.png)
+
+---
+![test2](test_2.png)
  
+
 
 
 
