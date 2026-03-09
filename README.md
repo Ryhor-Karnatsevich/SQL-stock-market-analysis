@@ -15,29 +15,28 @@ date, open, high, low, close, volume, symbol
 - SQL
 
 
-## Data_Exploration
+## Data Exploration
 
-### Dataset_preview
+### Dataset preview
 - Initial look at the database
 
-### Basic_table_exploration
+### Basic table exploration
 - Discovered rows count: 14,887,665
 
-### timeline_and_stocks_check
+### timeline and stocks check
 - Discovered date range from 1962 to 2016
 - Unique Stocks from 2 to 7163
 
-## Volume_check_by_day
-## Volume_check_by_year
+### Volume check by day / Volume check by year
 - 10 days with top volume are in 2017. 
 - 10 "year" with top volume are 2007-2016.
 That shows the market has a stable growth. 2017 didn"t appear in top 10 because it hasn't ended in dataset.
 
-### Openint_check
+### Openint check
 -All values in that column are zero. No need to use it in the further analysis.
 
 
-## Data_quality_audit_&_integrity
+## Data quality audit & integrity
 
 ### Logical test
 - Identified 60 records with corrupted logic (Low > High or open/close = 0) likely due to upstream data feed errors.
@@ -55,13 +54,13 @@ That shows the market has a stable growth. 2017 didn"t appear in top 10 because 
 
 ## Business Analytics
 
-### Average_by_year
+### Average by year
 - Calculated averages taking into account **'Logical Test'**
 
-### Daily_return
+### Dail return
 - Calculated daily return on latest 100  days for 'aapl' ticket
 
-### Bullish_days_vs_Bearish_days
+### Bullish days vs Bearish days
 - Calculated metrics on each year
    - **1** Bullish_days (when close > open + 10%)
    - **2** Bearish_days (when close < open - 10%)
@@ -71,7 +70,7 @@ That shows the market has a stable growth. 2017 didn"t appear in top 10 because 
 - Identified who lead the year bull or bears
 - Calculated the percentage of how much better leader performs
 
-### SMA_50_and_SMA_200
+### SMA_50 and SMA_200
 -Calculated SMA50 and SMA 200 for 'aapl' ticket
 
 ### Volatility Analysis
@@ -84,5 +83,6 @@ That shows the market has a stable growth. 2017 didn"t appear in top 10 because 
 - Created index based on two variables date and symbol.
 It decreased search time from 1571.226 ms to 0.197 ms 
  
+
 
 
