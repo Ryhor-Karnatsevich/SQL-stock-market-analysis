@@ -69,6 +69,7 @@ That shows the market has a stable growth. 2017 didn"t appear in top 10 because 
 
 - Identified who lead the year bull or bears
 - Calculated the percentage of how much better leader performs
+![table](bulls_bears.png)
 
 ### SMA_50 and SMA_200
 -Calculated SMA50 and SMA 200 for 'aapl' ticket
@@ -88,6 +89,7 @@ It decreased search time from 1571.226 ms to 0.197 ms
 ---
 ![test2](test_2.png)
  
+
 
 
 
