@@ -25,7 +25,8 @@ System Optimization: Engineering B-Tree indexes to achieve a 7900x increase in q
 - SQL
 
 ### Data Wrangling
-Original dataset consists of multiple individual text files per ticker. Data was aggregated into a single unified CSV table for comprehensive analysis.
+The original dataset consisted of multiple text files, each representing a single stock ticker. 
+All files were aggregated into one unified CSV table to enable large-scale analysis across all stocks.
 
 ## Data Exploration
 
@@ -101,6 +102,7 @@ It decreased search time from 1571.226 ms to 0.197 ms
 ---
 ![test2](test_2.png)
  
+
 
 
 
