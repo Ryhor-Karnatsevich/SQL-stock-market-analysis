@@ -10,6 +10,16 @@ ROWS: 14,887,665
 Columns:
 date, open, high, low, close, volume, symbol
 
+## Project Overview
+This project focuses on building a high-performance end-to-end analytical pipeline for a massive financial dataset containing 14.8 million records. The goal was to transform raw historical stock data into actionable financial insights while ensuring 100% data integrity and optimizing database performance for big-data scale.
+
+Key Objectives:
+Data Ops & Integrity: Implementing logical audits to identify and handle corrupted market data (price anomalies, zero volumes).
+
+Financial Engineering: Calculating core risk and trend metrics (SMA 50/200, Daily Returns, Monthly Volatility) using advanced SQL window functions.
+
+System Optimization: Engineering B-Tree indexes to achieve a 7500x increase in query execution speed.
+
 ### Tools:
 - PostgreSQL
 - SQL
@@ -57,7 +67,7 @@ That shows the market has a stable growth. 2017 didn"t appear in top 10 because 
 ### Average by year
 - Calculated averages taking into account **'Logical Test'**
 
-### Dail return
+### Daily return
 - Calculated daily return on latest 100  days for 'aapl' ticket
 
 ### Bullish days vs Bearish days
@@ -89,6 +99,7 @@ It decreased search time from 1571.226 ms to 0.197 ms
 ---
 ![test2](test_2.png)
  
+
 
 
 
