@@ -18,7 +18,7 @@ Data Ops & Integrity: Implementing logical audits to identify and handle corrupt
 
 Financial Engineering: Calculating core risk and trend metrics (SMA 50/200, Daily Returns, Monthly Volatility) using advanced SQL window functions.
 
-System Optimization: Engineering B-Tree indexes to achieve a 7500x increase in query execution speed.
+System Optimization: Engineering B-Tree indexes to achieve a 8200x increase in query execution speed.
 
 ### Tools:
 - PostgreSQL
@@ -99,6 +99,7 @@ It decreased search time from 1571.226 ms to 0.197 ms
 ---
 ![test2](test_2.png)
  
+
 
 
 
